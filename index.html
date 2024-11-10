@@ -2,115 +2,152 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Hope's Website</title>
-  <link href="reset.css" rel="stylesheet" type="text/css" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Hope's Website</title>
+    <link href="reset.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+
+    <!--  Tailwindcss Cdn Link You can install it if you want via npm :)-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
 
 </head>
 
-<body>
-  <header>
-    <h1>Hope's Website</h1>
-    <nav>
-      <ul class="navlinks">
-        <li><a href="index.html">Home</a></li>
-        <li>|</li>
-        <li><a href="aboutme.html">About Me</a></li>
-        <li>|</li>
-        <li><a href="tm.html">Teachable Machine</a></li>
-      </ul>
-    </nav>
-  </header>
-  <div id="project-container">
-    <div class="project">
-      <iframe width="1009" height="568" src="https://www.youtube.com/embed/5mvhv0JKOXI"
-        title="Genius Hour Video Final Hope Lazo" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>
-      <h2>Genius Hour Project - HTML & CSS Course</h2>
-      <p><a href="https://youtu.be/5mvhv0JKOXI">Genius Hour
-        </a></p>
-      <p>For my computer science class we had to do a topic that was related to the course. I choose to do a HTML and
-        CSS Course. This course was very detailed and enjoyable. For my final project I created a website for a local
-        artist.
-      </p>
-      <div class="clear"></div>
+<body class="bg-gradient-to-b from-orange-100 to-blue-200">
+<header class="bg-orange-100">
+    <div class="flex items-center justify-between max-w-[1400px] mx-auto">
+        <h1>Hope's Website</h1>
+        <nav>
+            <ul class="navlinks space-x-4 transition-all duration-300">
+                <li><a class="text-orange-500" href="index.html">Home</a></li>
+                <li>|</li>
+                <li><a class="text-orange-500" href="aboutme.html">About Me</a></li>
+                <li>|</li>
+                <li><a class="text-orange-500" href="tm.html">Teachable Machine</a></li>
+            </ul>
+        </nav>
     </div>
+</header>
+<div class="max-w-[1500px] mx-auto">
+    <div class="flex flex-col gap-4 mb-8">
+        <div class="max-w-[1000px] mx-auto space-y-2 text-center">
+            <h2 class="text-3xl font-bold">Genius Hour Project - HTML & CSS Course</h2>
+            <p><a class="text-orange-500" href="https://youtu.be/5mvhv0JKOXI">Genius Hour
+            </a></p>
+            <p>For my computer science class we had to do a topic that was related to the course. I choose to do a HTML
+                and
+                CSS Course. This course was very detailed and enjoyable. For my final project I created a website for a
+                local
+                artist.
+            </p>
+        </div>
+
+        <div class="w-full rounded-xl overflow-hidden">
+            <iframe width="100%" height="568" src="https://www.youtube.com/embed/5mvhv0JKOXI"
+                    title="Genius Hour Video Final Hope Lazo" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="clear"></div>
 
     <div class="project">
-      <img src="img/ap.png" alt="Code IDE">
-      <h2>Currency Converter - Python </h2>
-      <p><a href="https://www.youtube.com/watch?v=urLIli1W5-w">Currency Converter - Python
+        <img src="img/ap.png" alt="Code IDE">
+        <h2>Currency Converter - Python </h2>
+        <p><a class="text-orange-500" href="https://www.youtube.com/watch?v=urLIli1W5-w">Currency Converter - Python
         </a></p>
-      <p>For our Final AP project we were tasked to create a program that checks all the boxs of the AP. My our decided
-        to create a currency converter. This converter takes currency from other countries like Japan, China, and so
-        many more. And converts this into US currency.
-      </p>
-      <div class="clear"></div>
+        <p>For our Final AP project we were tasked to create a program that checks all the boxs of the AP. My our
+            decided
+            to create a currency converter. This converter takes currency from other countries like Japan, China, and so
+            many more. And converts this into US currency.
+        </p>
+        <div class="clear"></div>
     </div>
     <!-- start of project template -->
-    <div class="project">
-      <iframe
-        src="https://myhub.autodesk360.com/ue2fab75e/shares/public/SHd38bfQT1fb47330c99b6a201aa14198823?mode=embed"
-        width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"
-        frameborder="0"></iframe>
-      <h2>Bike Compontent Box - Fusion Model</h2>
-      <p><a href="https://a360.co/3Oysdht">Bike Compontent Box Fusion Model
-        </a></p>
-      <p>For our E-mobility Bike we had to create a box to store all the components for the bike. This box has to be
-        stable and easily dismandtable this is because if there is an error you will be able to unscrew and fix the
-        wiring.
-      </p>
-      <div class="clear"></div>
+    <div class="flex gap-8 my-6 bg-gradient-to-l from-orange-300 to-transparent p-4 rounded-xl">
+        <div class="w-full rounded-xl overflow-hidden">
+            <iframe
+                    src="https://myhub.autodesk360.com/ue2fab75e/shares/public/SHd38bfQT1fb47330c99b6a201aa14198823?mode=embed"
+                    width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true"
+                    mozallowfullscreen="true"
+                    frameborder="0"></iframe>
+        </div>
+
+        <div class="space-y-5">
+            <h2 class="text-3xl font-bold">Bike Compontent Box - Fusion Model</h2>
+            <p><a class="text-orange-500" href="https://a360.co/3Oysdht">Bike Compontent Box Fusion Model
+            </a></p>
+            <p>For our E-mobility Bike we had to create a box to store all the components for the bike. This box has to
+                be
+                stable and easily dismandtable this is because if there is an error you will be able to unscrew and fix
+                the
+                wiring.
+            </p>
+        </div>
     </div>
-    <!-- end of project template -->
-    <div class="project">
-      <img src="img/e-mobility_bike.png" alt="Back of a Bike with a box on it">
-      <h2>E-mobility - Bike</h2>
-      <p><a href="https://www.instructables.com/E-mobility-Bike/">E-mobility Bike
-        </a></p>
-      <p>We were tasked to build an E-mobility bike. This bike would be an inexpensive and sustainable option. For
-        instance being able to bike to and from school, work, or any other endeavor. In this instructable we explain our
-        process from attaching the motor, to building housing for the system and adding extra functions.
-      </p>
-      <div class="clear"></div>
-    </div>
-    <!-- start of project template -->
-    <div class="project">
-      <img src="img/bioworld.png" alt="Earth in Space with a Rabbit on the Side">
-      <h2>BioWorld - Congressional App Challenge</h2>
-      <p><a
-          href="https://snap.berkeley.edu/snap/snap.html#present:Username=hopelaz&ProjectName=Game%20Draft%20">BioWorld
-        </a></p>
-      <p>My app is to educate children about the different species that live in the forest. While also teaching them
-        about
-        the harm of trash in the environment. In this video, you can see a start screen prompting the user to click
-        play.
-        Once you are in the play menu telling you about the biome, which is a forest, saying that not everything in the
-        forest is meant to be touched. After creation is clicked, you are brought into the main game. There are various
-        plants and objects scattered around the map. On the top left of the game there is a menu that displays the
-        different objects that are able to be clicked on the map. The value of these objects are set to zero. When you
-        click on one of these items the variable that is set in the menu is increased by one. The input is when the item
-        is clicked, and the output is that variable that was displayed before increased by 1.
-      </p>
-      <div class="clear"></div>
-    </div>
+    <div class="clear"></div>
+
     <!-- end of project template -->
 
-    <div class="project">
-      <img src="img/maze.png" alt="maze runn">
-      <h2>Snap - Maze Maker</h2>
-      <p><a href="https://snap.berkeley.edu/snap/snap.html#present:Username=hopelaz&ProjectName=maze">Mave Maker
-        </a></p>
-      <p>This game was made inspired by a project titled the same way. The object of the game is to draw a maze. Then
-        after drawing be able to go make your way to the end. The catch is you are not able to go over walls. The only
-        way is to go around them. Click the link above to play!
-      </p>
-      <div class="clear"></div>
+    <div class="flex gap-8">
+        <div class="rounded-xl border-2 ring-1 ring-orange-400 border-black p-2 flex flex-col gap-4 hover:scale-110 bg-gradient-to-tr from-orange-400 to-transparent transition-all duration-[1s] max-h-fit max-w-[500px]">
+            <img class="w-full rounded-xl" src="img/e-mobility_bike.png" alt="Back of a Bike with a box on it">
+            <h2 class="text-xl font-bold">E-mobility - Bike</h2>
+            <p><a class="text-orange-500" href="https://www.instructables.com/E-mobility-Bike/">E-mobility Bike
+            </a></p>
+            <p class="text-justify">We were tasked to build an E-mobility bike. This bike would be an inexpensive and
+                sustainable option. For
+                instance being able to bike to and from school, work, or any other endeavor. In this instructable we
+                explain
+                our
+                process from attaching the motor, to building housing for the system and adding extra functions.
+            </p>
+            <div class="clear"></div>
+        </div>
+
+        <div class="rounded-xl border-2 ring-1 ring-orange-400 border-black p-2 flex flex-col gap-4 hover:scale-110 bg-gradient-to-tr from-orange-400 to-transparent transition-all duration-[1s] max-h-fit max-w-[500px]">
+            <img class="w-full rounded-xl" src="img/bioworld.png" alt="Earth in Space with a Rabbit on the Side">
+            <h2 class="text-xl font-bold">BioWorld - Congressional App Challenge</h2>
+            <p><a class="text-orange-500"
+                    href="https://snap.berkeley.edu/snap/snap.html#present:Username=hopelaz&ProjectName=Game%20Draft%20">BioWorld
+            </a></p>
+            <p class="text-justify">My app is to educate children about the different species that live in the forest. While also teaching them
+                about
+                the harm of trash in the environment. In this video, you can see a start screen prompting the user to click
+                play.
+                Once you are in the play menu telling you about the biome, which is a forest, saying that not everything in
+                the
+                forest is meant to be touched. After creation is clicked, you are brought into the main game. There are
+                various
+                plants and objects scattered around the map. On the top left of the game there is a menu that displays the
+                different objects that are able to be clicked on the map. The value of these objects are set to zero. When
+                you
+                click on one of these items the variable that is set in the menu is increased by one. The input is when the
+                item
+                is clicked, and the output is that variable that was displayed before increased by 1.
+            </p>
+            <div class="clear"></div>
+        </div>
+
+
+        <div class="rounded-xl border-2 ring-1 ring-orange-400 border-black p-2 flex flex-col gap-4 hover:scale-110 bg-gradient-to-tr from-orange-400 to-transparent transition-all duration-[1s] max-h-fit max-w-[500px]">
+            <img class="w-full rounded-xl" src="img/maze.png" alt="maze runn">
+            <h2 class="text-xl font-bold">Snap - Maze Maker</h2>
+            <p><a class="text-orange-500" href="https://snap.berkeley.edu/snap/snap.html#present:Username=hopelaz&ProjectName=maze">Mave Maker
+            </a></p>
+            <p class="text-justify">This game was made inspired by a project titled the same way. The object of the game is to draw a maze. Then
+                after drawing be able to go make your way to the end. The catch is you are not able to go over walls. The
+                only
+                way is to go around them. Click the link above to play!
+            </p>
+            <div class="clear"></div>
+        </div>
+
+
     </div>
-  </div>
+
+</div>
 
 </body>
 
